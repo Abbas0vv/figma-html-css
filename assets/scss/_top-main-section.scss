@@ -1,0 +1,141 @@
+main {
+    .top-main-section {
+
+        position: absolute;
+        width: 1920px;
+        height: 847px;
+        left: 0px;
+        top: 0px;
+
+        /* Black 5 */
+
+        background: rgba(30, 40, 50, 0.05);
+
+        .product {
+            position: absolute;
+            width: 1226px;
+            height: 562px;
+            left: 300px;
+            top: 225px;
+
+        }
+
+        .main-content {
+            position: absolute;
+            width: 686px;
+            height: 364px;
+            left: 300px;
+            top: 299px;
+
+            button {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 19px 26px;
+                    gap: 8px;
+                    
+                    position: absolute;
+                    width: 223px;
+                    height: 72px;
+                    left: 304px;
+                    top: 591px;
+                
+                /* Black */
+                
+                background: #1E2832;
+
+                .fa-bag-shopping {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px;
+                    
+                    width: 30px;
+                    height: 30px;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+
+                p {
+                    width: 133px;
+                    height: 34px;
+                    
+                    /* Button - Larg */
+                    
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 29px;
+                    line-height: 34px;
+                    /* identical to box height */
+                    
+                    text-transform: capitalize;
+                    
+                    /* White */
+                    
+                    color: #FFFFFF;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                }
+            }
+
+            p {
+                position: absolute;
+                width: 682px;
+                height: 119px;
+                left: 304px;
+                top: 406px;
+
+                /* Paragraph - Larg */
+
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 55px;
+                /* or 183% */
+
+                text-transform: capitalize;
+
+                /* Dark */
+
+                color: #000000;
+            }
+
+            h4 {
+                position: absolute;
+                width: 360px;
+                height: 55px;
+                left: 300px;
+                top: 299px;
+                            
+                /* Body */
+                            
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 74px;
+                line-height: 55px;
+                /* identical to box height, or 74% */
+                            
+                text-transform: capitalize;
+                            
+                /* Dark */
+                            
+                color: #000000;
+            }
+        }
+    }
+}
